@@ -1,0 +1,43 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Node
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Foundry
+contracts/cache/
+contracts/out/
+contracts/broadcast/
+
+# Projects (each project gets its own repo, only index is tracked)
+projects/*/
+
+# OS
+.DS_Store
+**/.DS_Store
+
+# Logs (keep structure, ignore content)
+logs/*.jsonl
+logs/.active-*
+
+# Hosting
+.netlify/
+.vercel/
+
+# MCP servers (cloned dependencies)
+etherlink-mcp-server/
+.claude/settings.local.json
+
+# Deep agents
+deepagents/

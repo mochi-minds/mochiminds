@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "etherlink": {
+      "command": "bun",
+      "args": ["run", "./etherlink-mcp-server/src/index.ts"],
+      "env": {
+        "EVM_PRIVATE_KEY": ""
+      }
+    }
+  }
+}
