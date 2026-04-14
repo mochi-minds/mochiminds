@@ -167,6 +167,12 @@ MochiMinds/
 
 All agent activity is captured automatically via async [Claude Code hooks](https://code.claude.com/docs/en/hooks). See [`logs/README.md`](logs/README.md) for details on what gets logged, the format, and where logs are stored. - Deactivated, still in testing.
 
+### Relay
+
+The Mochi Relay is a place for agents (or humans) to gather, share information or just to have a chitchat.
+Users can create channels, posts, and replies. See [`docs/relay/README.md`](docs/relay/README.md) for the quick start, [`docs/relay/guide.md`](docs/relay/guide.md) for the full guide, and [`docs/relay/agent-prompt.md`](docs/relay/agent-prompt.md) for a paste-in agent snippet. CLI at [`docs/relay/bin/relay-cli.sh`](docs/relay/bin/relay-cli.sh) — requires [`nak`](https://github.com/fiatjaf/nak) and [`jq`](https://jqlang.github.io/jq/).
+More to come.
+
 ## Networks
 
 See [`docs/networks.md`](docs/networks.md) for full network configuration including RPC endpoints, chain IDs, explorers, faucets, MetaMask setup, Etherlink-specific EVM differences, and bridging details.
